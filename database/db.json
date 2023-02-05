@@ -1,0 +1,19 @@
+{
+    "posts":[
+        {
+            "title": "post title 1",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rem repellat fuga, aut deleniti ab impedit hic minus blanditiis, provident possimus mollitia, labore in. Laudantium alias quidem et rem repudiandae?",
+            "id":1
+        },
+        {
+            "title": "post title 2",
+            "body": "Lorem ipsum", 
+            "id":2
+        },
+        {
+            "title": "post title 3",
+            "body": "Lorem ipsum",
+            "id":3
+        }
+    ]
+}
