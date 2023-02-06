@@ -1,36 +1,39 @@
 {
   "posts": [
     {
-      "title": "post title 1",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rem repellat fuga, aut deleniti ab impedit hic minus blanditiis, provident possimus mollitia, labore in. Laudantium alias quidem et rem repudiandae?",
-      "id": 1
-    },
-    {
-      "title": "post title 2",
-      "body": "Lorem ipsum",
-      "id": 2
-    },
-    {
-      "title": "post title 3",
-      "body": "Lorem ipsum",
-      "id": 3
-    },
-    {
-      "title": "title testing",
-      "body": "testing bodytesting bodytesting bodytesting bodytesting bodytesting bodytesting bodytesting bodytesting bodytesting body",
+      "title": "title",
+      "body": "title",
       "tags": [
         "html",
         "css"
       ],
-      "id": 4
+      "id": 1
     },
     {
-      "title": "testing hi 1",
-      "body": "testing hi 1testing hi 1testing hi 1testing hi 1testing hi 1testing hi 1testing hi 1",
+      "title": "post 2",
+      "body": "post 2",
       "tags": [
-        "vuejs"
+        "vue",
+        "css"
       ],
-      "id": 5
+      "id": 2
+    },
+    {
+      "title": "post 3",
+      "body": "post 3",
+      "tags": [
+        "html",
+        "vue"
+      ],
+      "id": 3
+    },
+    {
+      "title": "post 4",
+      "body": "post 4",
+      "tags": [
+        "laravel"
+      ],
+      "id": 4
     }
   ]
 }
