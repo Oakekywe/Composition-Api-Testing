@@ -1,7 +1,18 @@
 <template>
-  
+  <NavBar />
   <router-view/>
 </template>
+
+<script>
+import NavBar from "./components/NavBar.vue"
+
+export default{
+  components:{
+    NavBar
+  }
+}
+</script>
+
 
 <style>
 #app {
@@ -10,7 +21,7 @@
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
+/* 
 nav {
   padding: 30px;
 }
@@ -22,5 +33,5 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 </style>

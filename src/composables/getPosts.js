@@ -5,9 +5,9 @@ let getPosts=()=>{
     let error= ref("")
     let load= async ()=>{
         try{
-            await new Promise((resovle, reject)=>{
-                setTimeout(resovle, 2500)
-            })
+            // await new Promise((resovle, reject)=>{
+            //     setTimeout(resovle, 2500)
+            // })
 
             let response= await fetch("http://localhost:3000/posts")
             if(response.status=== 404){
