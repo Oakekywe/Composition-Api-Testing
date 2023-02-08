@@ -11,7 +11,7 @@
     <div v-for="tag in tags" :key="tag" class="pill">
         {{tag}}
     </div>
-    <button>Post</button>
+    <button class="postButton">Post</button>
   </form>
 </template>
 
@@ -116,4 +116,8 @@ export default {
         border-radius: 20px;
         font-size: 14px;
     }
+    .postButton{
+        cursor: pointer;
+    }
+   
 </style>
