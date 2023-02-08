@@ -1,5 +1,4 @@
 import { ref } from "vue"
-import { collection, getDocs } from "firebase/firestore";
 import {db} from "../firebase/config"
 
 let getPosts=()=>{
@@ -7,11 +6,10 @@ let getPosts=()=>{
     let error= ref("")
     let load= async ()=>{
         try{
-            let res= await getDocs(collection(db,"posts"))
-            posts.value= res.docs.map((doc)=>{
+            let res= await db.collection("posts").get()
+                posts.value= res.docs.map((doc)=>{
                 return {id:doc.id, ...doc.data()}
             })
-            console.log(res);
 
 
             // // await new Promise((resovle, reject)=>{
