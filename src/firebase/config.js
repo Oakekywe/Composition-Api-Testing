@@ -2,12 +2,12 @@ import firebase from "firebase/app";
 import "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCdC7-81-wtreogtgAEPjePXG-CW1m2LU0",
-  authDomain: "vue-blog-39423.firebaseapp.com",
-  projectId: "vue-blog-39423",
-  storageBucket: "vue-blog-39423.appspot.com",
-  messagingSenderId: "72841176729",
-  appId: "1:72841176729:web:0e313ad9c8a4755c753a08"
+  apiKey: "AIzaSyCJbwcttbuoXPCS-GHIY27iMzMipICawTA",
+  authDomain: "vue-blog-8d6d4.firebaseapp.com",
+  projectId: "vue-blog-8d6d4",
+  storageBucket: "vue-blog-8d6d4.appspot.com",
+  messagingSenderId: "370377587704",
+  appId: "1:370377587704:web:a179c4583b0af0f1b2340d"
 };
 
 // init firebase
